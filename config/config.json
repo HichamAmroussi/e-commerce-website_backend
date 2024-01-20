@@ -14,10 +14,10 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
+    "username": "fl0user",
+    "password": "nGEWadJ2oZY3",
+    "database": "database",
+    "host": "ep-shrill-wildflower-11998745.eu-central-1.aws.neon.fl0.io",
     "dialect": "mysql"
   }
 }
