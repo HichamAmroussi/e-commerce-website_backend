@@ -1,7 +1,7 @@
 {
   "development": {
     "username": "root",
-    "password": "hardrockmetal11",
+    "password": "",
     "database": "ecommerce_website",
     "host": "localhost",
     "dialect": "mysql"
