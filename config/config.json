@@ -7,17 +7,17 @@
     "dialect": "mysql"
   },
   "test": {
-    "username": "fl0user",
-    "password": "nGEWadJ2oZY3",
-    "database": "database",
-    "host": "ep-shrill-wildflower-11998745.eu-central-1.aws.neon.fl0.io",
+    "username": "if0_35475789",
+    "password": "bsa1E3aRmu",
+    "database": "if0_35475789_database",
+    "host": "sql202.infinityfree.com",
     "dialect": "mysql"
   },
   "production": {
-    "username": "fl0user",
-    "password": "nGEWadJ2oZY3",
-    "database": "database",
-    "host": "ep-shrill-wildflower-11998745.eu-central-1.aws.neon.fl0.io",
+    "username": "if0_35475789",
+    "password": "bsa1E3aRmu",
+    "database": "if0_35475789_database",
+    "host": "sql202.infinityfree.com",
     "dialect": "mysql"
   }
 }
