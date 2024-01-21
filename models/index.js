@@ -13,9 +13,19 @@ const { DataTypes} = require('sequelize');
 
 let sequelize;
 if (config.use_env_variable) {
-  sequelize = new Sequelize(process.env[config.use_env_variable], config);
+  sequelize = new Sequelize(process.env[config.use_env_variable], config, 
+    dialectOptions= {
+      instanceName: config.instancename,
+      domain: config.domain
+    }
+);
 } else {
-  sequelize = new Sequelize(config.database, config.username, config.password, config);
+  sequelize = new Sequelize(config.database, config.username, config.password, config, 
+    dialectOptions= {
+      instanceName: config.instancename,
+      domain: config.domain
+    }
+    );
 }
 
 fs
