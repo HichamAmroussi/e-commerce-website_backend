@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "root",
-    "password": "",
-    "database": "ecommerce_website",
-    "host": "localhost",
+    "username": "if0_35475789",
+    "password": "bsa1E3aRmu",
+    "database": "if0_35475789_database",
+    "host": "sql202.infinityfree.com",
     "dialect": "mysql"
   },
   "test": {
