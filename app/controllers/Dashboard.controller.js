@@ -6,6 +6,7 @@ const db = require("../../models");
 //----------------------  Models -------------------------
 const Product = db.products;
 const ProductImage = db.product_images;
+const Order = db.orders;
 
 //----------------------  Functions -------------------------
 const dashboard_index = (req, res) => {
@@ -104,11 +105,26 @@ const dashboard_delete_product = async (req, res) => {
     }
 }
 
+const dashboard_create_order = async (req, res) => {
+    try {
+        const orderData = req.body;
+
+        // Save Order to Database
+        const product = await Order.create(orderData);
+
+        res.json({ Statut: "The Order has been successfully sent" });
+
+    } catch(err) {
+        console.log(err);
+    }
+}
+
 
 module.exports = {
     dashboard_index,
     dashboard_get_products,
     dashboard_get_filtered_products,
     dashboard_create_product,
-    dashboard_delete_product
+    dashboard_delete_product,
+    dashboard_create_order,
 };

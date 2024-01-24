@@ -1,9 +1,10 @@
 {
   "development": {
-    "username": "if0_35475789",
-    "password": "bsa1E3aRmu",
-    "database": "if0_35475789_database",
-    "host": "sql202.infinityfree.com",
+    "username": "sql11678878",
+    "password": "CXYYtABtmH",
+    "database": "sql11678878",
+    "host": "sql11.freemysqlhosting.net",
+    "port": "3306",
     "dialect": "mysql"
   },
   "test": {
@@ -11,6 +12,7 @@
     "password": "bsa1E3aRmu",
     "database": "if0_35475789_database",
     "host": "sql202.infinityfree.com",
+    "port": "3306",
     "dialect": "mysql"
   },
   "production": {
@@ -18,6 +20,7 @@
     "password": "bsa1E3aRmu",
     "database": "if0_35475789_database",
     "host": "sql202.infinityfree.com",
+    "port": "3306",
     "dialect": "mysql"
   }
 }
